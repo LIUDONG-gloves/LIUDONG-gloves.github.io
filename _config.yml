@@ -7,7 +7,7 @@ description: "Every failure is leading towards success."
 keyword: "ELVIS, ELVIS Blog, 又文的博客, zhangyouwen, 张又文, Microeconometrics"
 url: "http://zywxmu2016.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/zywxmu2016/zywxmu2016.github.io.git" # you code repository
+github_repo: "https://github.com/zywxmu2016/liuguoxianngyin.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
