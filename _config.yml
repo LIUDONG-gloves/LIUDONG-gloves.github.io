@@ -1,13 +1,13 @@
 # Site settings
 title: ELVIS Blog
 SEOTitle: 又文的博客 | Elvis Blog
-header-img: img/post-bg-rwd.jpg #需要修改
+header-img: img/widsom.jpg #需要修改
 email: zyw-elvis@outlook.com
 description: "Every failure is leading towards success."
 keyword: "ELVIS, ELVIS Blog, 又文的博客, zhangyouwen, 张又文, Microeconometrics"
 url: "http://zywxmu2016.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/zywxmu2016/zywxmu2016.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -19,7 +19,7 @@ sidebar-avatar: /img/avatar-by.jpg      # use absolute URL, seeing it's used in 
 # SNS settings
 RSS: false
 weibo_username:     -ElvisZhang-
-zhihu_username:     ZYW
+zhihu_username:     ElvisZhang
 github_username:    zywxmu2016
 jianshu_username:   4072b6f18049
 
@@ -61,8 +61,8 @@ kramdown:
 # Gitalk 
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID 需要修改
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret 需要修改
+  clientID: e9000898f3c54af1c075                        #生成的clientID 需要修改
+  clientSecret:  4be25bcc157b260f2ccd814641dc43aff5b7596f #生成的clientSecret 需要修改
   repo: zywxmu2016.github.io    #仓库名称 需要修改
   owner: zywxmu2016    #github用户名
   admin: auto
