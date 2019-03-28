@@ -56,7 +56,7 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: YouwenZhang
+disqus_username: YouwenZhang
 
 # Gitalk 
 gitalk:
