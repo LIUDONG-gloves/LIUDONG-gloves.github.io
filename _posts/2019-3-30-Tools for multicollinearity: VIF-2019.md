@@ -31,6 +31,4 @@ Variance inflation factor( VIF ) is another multicollinearity diagnostic, given 
 <a href="https://www.codecogs.com/eqnedit.php?latex=VIF_i=\frac{1}{1-R_i^2}for&space;i=1,2,\ldots,k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?VIF_i=\frac{1}{1-R_i^2}for&space;i=1,2,\ldots,k" title="VIF_i=\frac{1}{1-R_i^2}for i=1,2,\ldots,k" /></a>
 
 
-
-
-
+Where R-square is the coefficient of multiple determination of x_i on the remaining explanatory variables.
