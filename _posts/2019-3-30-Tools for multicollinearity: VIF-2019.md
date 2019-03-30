@@ -25,6 +25,10 @@ However, there can still be multicollinearity even when all correlations are low
 
 > But it still suffers from the similar problem. Say, even if determinant is close to one, there still might be multicollinearity among the columns of X. Futher more, both correlations and det**R** do ont reveal the nnumber of coexisting relations and their structure.    
 
+Variance inflation factor( VIF ) is another multicollinearity diagnostic, given in the equation below.   
+
+$$VIF_i=\frac{1}{1-R_i^2} for i=1,2,{\rm cdots},k$$    
+
 
 
 
