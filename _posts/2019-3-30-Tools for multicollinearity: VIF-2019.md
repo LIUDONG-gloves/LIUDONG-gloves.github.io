@@ -23,11 +23,11 @@ As far as I know there are two effects, I mean, harms that multicollinearity has
 A simple way to detect collinearity is to llok at the correlation matrix of the predictors. The most popular way is to examine the correlation matrix of explanatory variables.
 However, there can still be multicollinearity even when all correlations are low, as correlation does not always match collinearity. Hence, to find out the more accurate diagnostic, people starts to establish the determinant of the matrix **R**( det**R**).
 
-> But it still suffers from the similar problem. Say, even if determinant is close to one, there still might be multicollinearity among the columns of X. Futher more, both correlations and det**R** do ont reveal the nnumber of coexisting relations and their structure.    
+> But it still suffers from the similar problem. Say, even if determinant is close to one, there still might be multicollinearity among the columns of X. Futher more, both correlations and det**R** do ont reveal the number of coexisting relations and their structure.    
 
 Variance inflation factor( VIF ) is another multicollinearity diagnostic, given in the equation below.   
 
-$$VIF_i=\frac{1}{1-R_i^2} for i=1,2,{\rm cdots},k$$    
+$$VIF_i=\frac{1}{1-R_i^2} for i=1,2,{\rm idots},k$$    
 
 
 
