@@ -27,7 +27,7 @@ However, there can still be multicollinearity even when all correlations are low
 
 Variance inflation factor( VIF ) is another multicollinearity diagnostic, given in the equation below.   
 
-$$VIF_i=\frac{1}{1-R_i^2}for i=1,2,\ldots,k$$    
+VIF_i=\frac{1}{1-R_i^2}for i=1,2,\ldots,k    
 
 
 
