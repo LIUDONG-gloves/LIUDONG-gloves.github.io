@@ -35,4 +35,15 @@ As stated by Wooldridge[2] and Johnston[3], VIF_j is a function of R_j^2 and obv
 
 > If we think certain explanatory variables need to be included in a regression to infer causality of x_j, then we are hesitant to drop them, and whether we think VIF_j is "too high" cannot really affect that desicion.        
 
-Besides the concern above, we still need to a rule for evaluating VIF. The interesting thing is that many researchers set the cutoff value as 10, or equivalently, R_j^2>0.9, while others take ( VIF )^1/2>2 as harmful, maybe its not the level of cutoff value but the logic behind this that matters. a VIF above 10 or 4 does not mean that the variance of \hat_beta_j is useless since it's jointly determined by sigma-square and SST_j.
+Besides the concern above, we still need to a rule for evaluating VIF. The interesting thing is that many researchers set the cutoff value as 10, or equivalently, R_j^2>0.9, while others take ( VIF )^1/2>2 as harmful, maybe its not the level of cutoff value but the logic behind this that matters. a VIF above 10 or 4 does not mean that the variance of \hat_beta_j is useless since it's jointly determined by sigma-square and SST_j.   
+
+Here I'll use the "lonely" package to show how to calculate VIF with R and how does the mmutlicollinearity looks like:  
+```
+> lm1 <- lm(GNP.deflator ~ ., data = longley)
+> summary(lm1)
+> library(car)
+> vif(lm1, digits = 3)
+> plot(longley[, 2:7])   
+
+```
+
