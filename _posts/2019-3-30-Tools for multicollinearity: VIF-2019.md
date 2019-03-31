@@ -29,14 +29,14 @@ However, there can still be multicollinearity even when all correlations are low
 ## VIF
 Variance inflation factor( VIF ) is another multicollinearity diagnostic, given in the equation below.   
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=VIF_j=\frac{var\left&space;(&space;\widehat{\beta_j&space;}&space;\right&space;)}{var\left&space;(&space;\widehat{\beta&space;_j_0}&space;\right&space;)}=\frac{1}{1-R_j^2},&space;j=1,2,\cdots&space;,k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?VIF_j=\frac{var\left&space;(&space;\widehat{\beta_j&space;}&space;\right&space;)}{var\left&space;(&space;\widehat{\beta&space;_j_0}&space;\right&space;)}=\frac{1}{1-R_j^2},&space;j=1,2,\cdots&space;,k" title="VIF_j=\frac{var\left ( \widehat{\beta_j } \right )}{var\left ( \widehat{\beta _j_0} \right )}=\frac{1}{1-R_j^2}, j=1,2,\cdots ,k" /></a>    
+$$VIF_j=\frac{var\left ( \widehat{\beta_j } \right )}{var\left ( \widehat{\beta _j_0} \right )}=\frac{1}{1-R_j^2}, j=1,2,\cdots ,k$$    
 
 Where R-square is the coefficient of multiple determination of x_i on the remaining explanatory variables. VIF values caould vary from unity to infinity. Out of the perspect of simplicity, people get used to interpret $$\sqrt{VIF_j}$$. The following R example will also construct the square root.   
 
 ### Explanations
 Now I offer one example to illstrute the VIF value. If $$VIF_j=10$$, then $$\sqrt{VIF_j}=3.1623$$, which means that the standard error of $$\widehat{\beta_j}$$ would be 3.1623 times larger than it was when all predictors are independent. As the VIF becomes larger, the relationship will become stronger and vice versa. To look futher, let's take a look at the origin of VIF.   
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=V\left&space;(&space;b_j*&space;\right&space;)=VIF_j\times&space;\frac{1-R^2}{n-p-1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V\left&space;(&space;b_j*&space;\right&space;)=VIF_j\times&space;\frac{1-R^2}{n-p-1}" title="V\left ( b_j* \right )=VIF_j\times \frac{1-R^2}{n-p-1}" /></a>    
+$$Var\left ( b_j* \right )=VIF_j\times \frac{1-R^2}{n-p-1}$$    
 
 Hence VIF shows the degree to which $$V\left ( b_j* \right )$$ increases due to multicollinearity between $$X_j$$ and other preditors. It's clear that any interdependence between predictos causes a precision for the slopes.  
 
