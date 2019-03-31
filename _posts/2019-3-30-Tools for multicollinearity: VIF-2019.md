@@ -65,8 +65,8 @@ Vary large VIF values are indicators of multicollinearity, here is the figure pr
 
 ![IMG_1494.png](https://i.loli.net/2019/03/31/5ca072ad524d7.png)     
 
-Actually from the VIF values we could still not get the straightforward access to the structure of the coexisting replations. And that is one big restriction of VIF. 
-
+Actually from the VIF values we could still not get the straightforward access to the structure of the coexisting replations. And that is one big restriction of VIF. The independence among predictors are vital for a qualified regression model, the presence of strong multicollinearity can complicate our inferences. Here I just provide a simple method to evalueate the impact of multicollinearity, the VIF. There are still many other diagnostics available for the purpose of assessment, eigenvalue, for example. And I believe the best choice is to use multiple diagnostics that can be computed with the typical regression results in hand. I hope this file can help you.   
+### END
 
 
 
