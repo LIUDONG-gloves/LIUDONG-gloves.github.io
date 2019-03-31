@@ -46,4 +46,5 @@ Here I'll use the "lonely" package to show how to calculate VIF with R and how d
 > plot(longley[, 2:7])   
 
 ```
-
+![R process.png](https://i.loli.net/2019/03/31/5ca07124bf591.png)
+![VIF.png](https://i.loli.net/2019/03/31/5ca071b25b484.png)
