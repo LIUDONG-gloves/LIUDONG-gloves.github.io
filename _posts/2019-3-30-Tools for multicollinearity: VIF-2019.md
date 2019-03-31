@@ -31,7 +31,7 @@ Variance inflation factor( VIF ) is another multicollinearity diagnostic, given 
 
 $$VIF_j=\frac{Var\left (\widehat{\beta_j} \right)}{Var\left (\widehat{\beta_j_0 }\right )}=\frac{1}{1-R_j^2}, j=1,2,\cdots ,k$$  
 
-Where R-square is the coefficient of multiple determination of x_i on the remaining explanatory variables. VIF values caould vary from unity to infinity. Out of the perspect of simplicity, people get used to interpret $$\sqrt{VIF_j}$$. The following R example will also construct the square root.   
+Where R-square is the coefficient of multiple determination of $$x_i$$ on the remaining explanatory variables. VIF values caould vary from unity to infinity. Out of the perspect of simplicity, people get used to interpret $$\sqrt{VIF_j}$$. The following R example will also construct the square root.   
 
 ### Explanations
 Now I offer one example to illstrute the VIF value. If $$VIF_j=10$$, then $$\sqrt{VIF_j}=3.1623$$, which means that the standard error of $$\widehat{\beta_j}$$ would be 3.1623 times larger than it was when all predictors are independent. As the VIF becomes larger, the relationship will become stronger and vice versa. To look futher, let's take a look at the origin of VIF.   
