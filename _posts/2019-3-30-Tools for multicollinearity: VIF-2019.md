@@ -47,4 +47,4 @@ Here I'll use the "lonely" package to show how to calculate VIF with R and how d
 
 ```
 ![R process.png](https://i.loli.net/2019/03/31/5ca07124bf591.png)
-![VIF.png](https://i.loli.net/2019/03/31/5ca071b25b484.png)
+![IMG_1493.png](https://i.loli.net/2019/03/31/5ca072528c1ee.png)
