@@ -9,6 +9,7 @@ catalog: true                       # 是否归档
 tags:                               #标签
     - Microeconometrics
 ---
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
 #  the Variance Inflation Factor( VIF ).
 
@@ -30,7 +31,7 @@ Variance inflation factor( VIF ) is another multicollinearity diagnostic, given 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=VIF_j=\frac{var\left&space;(&space;\widehat{\beta_j&space;}&space;\right&space;)}{var\left&space;(&space;\widehat{\beta&space;_j_0}&space;\right&space;)}=\frac{1}{1-R_j^2},&space;j=1,2,\cdots&space;,k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?VIF_j=\frac{var\left&space;(&space;\widehat{\beta_j&space;}&space;\right&space;)}{var\left&space;(&space;\widehat{\beta&space;_j_0}&space;\right&space;)}=\frac{1}{1-R_j^2},&space;j=1,2,\cdots&space;,k" title="VIF_j=\frac{var\left ( \widehat{\beta_j } \right )}{var\left ( \widehat{\beta _j_0} \right )}=\frac{1}{1-R_j^2}, j=1,2,\cdots ,k" /></a>    
 
-Where R-square is the coefficient of multiple determination of x_i on the remaining explanatory variables. VIF values caould vary from unity to infinity. Out of the perspect of simplicity, people get used to interpret $$<a href="https://www.codecogs.com/eqnedit.php?latex=\sqrt{VIF_j}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sqrt{VIF_j}" title="\sqrt{VIF_j}" /></a>$$. The following R example will also construct the square root.   
+Where R-square is the coefficient of multiple determination of x_i on the remaining explanatory variables. VIF values caould vary from unity to infinity. Out of the perspect of simplicity, people get used to interpret $$\sqrt{VIF_j}$$. The following R example will also construct the square root.   
 
 ### Explanations
 Now I offer one example to illstrute the VIF value. If $$<a href="https://www.codecogs.com/eqnedit.php?latex=VIF_j" target="_blank"><img src="https://latex.codecogs.com/gif.latex?VIF_j" title="VIF_j" /></a>$$=10, then <a href="https://www.codecogs.com/eqnedit.php?latex=\sqrt{VIF_j}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sqrt{VIF_j}" title="\sqrt{VIF_j}" /></a>=3.1623, which means that the standard error of <a href="https://www.codecogs.com/eqnedit.php?latex=\widehat{\beta_j}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\widehat{\beta_j}" title="\widehat{\beta_j}" /></a> would be 3.1623 times larger than it was when all predictors are independent. As the VIF becomes larger, the relationship will become stronger and vice versa. To look futher, let's take a look at the origin of VIF.   
