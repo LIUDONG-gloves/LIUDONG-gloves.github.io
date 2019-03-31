@@ -58,7 +58,3 @@ Vary large VIF values are indicators of multicollinearity, here is the figure pr
 
 
 
-
-
-
-![IMG_1494.png](https://i.loli.net/2019/03/31/5ca072ad524d7.png)
