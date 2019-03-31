@@ -38,7 +38,7 @@ Now I offer one example to illstrute the VIF value. If $$VIF_j=10$$, then $$\sqr
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=V\left&space;(&space;b_j*&space;\right&space;)=VIF_j\times&space;\frac{1-R^2}{n-p-1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V\left&space;(&space;b_j*&space;\right&space;)=VIF_j\times&space;\frac{1-R^2}{n-p-1}" title="V\left ( b_j* \right )=VIF_j\times \frac{1-R^2}{n-p-1}" /></a>    
 
-Hence VIF shows the degree to which <a href="https://www.codecogs.com/eqnedit.php?latex=V\left&space;(&space;b_j*&space;\right&space;)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V\left&space;(&space;b_j*&space;\right&space;)" title="V\left ( b_j* \right )" /></a> increases due to multicollinearity between <a href="https://www.codecogs.com/eqnedit.php?latex=X_j" target="_blank"><img src="https://latex.codecogs.com/gif.latex?X_j" title="X_j" /></a> and other preditors. It's clear that any interdependence between predictos causes a precision for the slopes.  
+Hence VIF shows the degree to which $$V\left ( b_j* \right )$$ increases due to multicollinearity between $$X_j$$ and other preditors. It's clear that any interdependence between predictos causes a precision for the slopes.  
 
 ### Futhermore
 As stated by Wooldridge[2] and Johnston[3], VIF_j is a function of R_j^2 and obviously it's highly nonlinear. Though many researchers say higher value of VIF leads to more troublesome results, its not that properly to make our conclusion about whether to drop variables based on VIFs.   
