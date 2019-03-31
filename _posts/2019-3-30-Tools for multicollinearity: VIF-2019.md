@@ -17,7 +17,7 @@ tags:                               #标签
 
 The multicollinearity arises when there is any departure from orthogonality in the set of regressors and get worse as the correlation among explanatory variables increase.      
 
-As far as I know there are two effects, I mean, harms that multicollinearity has. On the one hand, the strong correlation among explanatory variables induces numerical instability in the estimates of both regression and statistical tests. The $$/hat{\beta}$$ is very likely to be overestimated and the confidence interval is too loose to br of any practical use. On the other hand, it's not surprising to observe an increased R-square despite the reduced number of individual significant coefficients, also the t-statistic just fail to present the real pic.  
+As far as I know there are two effects, I mean, harms that multicollinearity has. On the one hand, the strong correlation among explanatory variables induces numerical instability in the estimates of both regression and statistical tests. The $$\widehat{\beta}$$ is very likely to be overestimated and the confidence interval is too loose to br of any practical use. On the other hand, it's not surprising to observe an increased R-square despite the reduced number of individual significant coefficients, also the t-statistic just fail to present the real pic.  
 
 ---
 ## How to assess it?
@@ -29,7 +29,7 @@ However, there can still be multicollinearity even when all correlations are low
 ## VIF
 Variance inflation factor( VIF ) is another multicollinearity diagnostic, given in the equation below.  
 
-$$VIF_j=\frac{Var\widehat{\beta_j}}{Var\widehat{\beta_j_0 }}=\frac{1}{1-R_j^2},j=1,2,\cdots ,k$$  
+$$VIF_j=\frac{Var\left (\widehat{\beta_j} \right)}{Var\left (\widehat{\beta_j_0 }\right )}=\frac{1}{1-R_j^2}, j=1,2,\cdots ,k$$  
 
 Where R-square is the coefficient of multiple determination of x_i on the remaining explanatory variables. VIF values caould vary from unity to infinity. Out of the perspect of simplicity, people get used to interpret $$\sqrt{VIF_j}$$. The following R example will also construct the square root.   
 
