@@ -29,7 +29,7 @@ However, there can still be multicollinearity even when all correlations are low
 ## VIF
 Variance inflation factor( VIF ) is another multicollinearity diagnostic, given in the equation below.   
 
-$$VIF_j=\frac{var\left ( \widehat{\beta_j } \right )}{var\left ( \widehat{\beta_j_0 } \right )}=\frac{1}{1-R_j^2},j=1,2,\cdots ,k$$  
+$$VIF_j=\frac{var\left ( \hat{\beta_j } \right )}{var\left ( \hat{\beta_j_0 } \right )}=\frac{1}{1-R_j^2},j=1,2,\cdots ,k$$  
 
 Where R-square is the coefficient of multiple determination of x_i on the remaining explanatory variables. VIF values caould vary from unity to infinity. Out of the perspect of simplicity, people get used to interpret $$\sqrt{VIF_j}$$. The following R example will also construct the square root.   
 
