@@ -45,7 +45,7 @@ As stated by Wooldridge[2] and Johnston[3], $$VIF_j$$ is a function of $$R_j^2$$
 
 > If we think certain explanatory variables need to be included in a regression to infer causality of $$x_j$$, then we are hesitant to drop them, and whether we think $$VIF_j$$ is "too high" cannot really affect that desicion.        
 
-Besides the concern above, we still need to a rule for evaluating VIF. The interesting thing is that many researchers set the cutoff value as 10, or equivalently, $$R_j^2>0.9$$, while others take $$\sqrt{ VIF_j }>2$$ as harmful, maybe its not the level of cutoff value but the logic behind this that matters. a VIF above 10 or 4 does not mean that the variance of $$\hat_beta_j$$ is useless since it's jointly determined by $$\sigma^2$$ and $$SST_j$$.   
+Besides the concern above, we still need to a rule for evaluating VIF. The interesting thing is that many researchers set the cutoff value as 10, or equivalently, $$R_j^2>0.9$$, while others take $$\sqrt{ VIF_j }>2$$ as harmful, maybe its not the level of cutoff value but the logic behind this that matters. a VIF above 10 or 4 does not mean that the variance of $$\widehat{\beta_j}$$ is useless since it's jointly determined by $$\sigma^2$$ and $$SST_j$$.   
 
 
 ### Example
