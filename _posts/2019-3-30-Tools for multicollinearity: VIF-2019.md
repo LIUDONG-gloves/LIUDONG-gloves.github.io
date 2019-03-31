@@ -31,4 +31,8 @@ Variance inflation factor( VIF ) is another multicollinearity diagnostic, given 
 
 Where R-square is the coefficient of multiple determination of x_i on the remaining explanatory variables.   
 
-Or it can be explained as 
+As stated by Wooldridge[2] and Johnston[3], VIF_j is a function of R_j^2 and obviously it's highly nonlinear. Though many researchers say higher value of VIF leads to more troublesome results, its not that properly to make our conclusion about whether to drop variables based on VIFs.   
+
+> If we think certain explanatory variables need to be included in a regression to infer causality of x_j, then we are hesitant to drop them, and whether we think VIF_j is "too high" cannot really affect that desicion.        
+
+Besides the concern above, we still need to a rule for evaluating VIF. The interesting thing is that many researchers set the cutoff value as 10, or equivalently, R_j^2>0.9, while others take ( VIF )^1/2>2 as harmful, maybe its not the level of cutoff value but the logic behind this that matters. a VIF above 10 or 4 does not mean that the variance of \hat_beta_j is useless since it's jointly determined by sigma-square and SST_j.
