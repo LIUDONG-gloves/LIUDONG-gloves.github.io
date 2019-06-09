@@ -9,7 +9,7 @@ catalog: true                       # 是否归档
 tags:                               #标签
     - Microeconometrics
 ---
-
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script> 
 ## Propensity score was first propsed by Rosenbaum and Rubin(1983)
 
 
