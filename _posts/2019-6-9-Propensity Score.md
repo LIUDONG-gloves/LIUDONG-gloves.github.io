@@ -41,9 +41,14 @@ $$E\left ( Y_{0}|w=0 \right )=E\left ( Y_{0}|w=1 \right )$$
 
 That is, another group in the control group can represent the "counterfactual" status of the individual in the experimental group. Thus, equation(1) can be simplified as:     
 
-$$T=E\left ( Y_{j}|w=1 \right )-E\left ( Y_{0}|w=0 \right )$$  
+$$T=E\left ( Y_{j}|w=1 \right )-E\left ( Y_{0}|w=0 \right )$$     
 
-Under randomized experimental conditions, since the experimental individuals were assigned to the experimental and control groups in a random manner, $$E\left ( Y_{1}|w=0 \right )=E\left ( Y_{i}|w=1 \right )$$ and $$E\left ( Y_{0}|w=0 \right )=E\left ( Y_{0}|w=1 \right )$$ assumptions hold. Based on the fact that the observed test cannot guarantee randomization, it is necessary to control the confusion variable as much as possible so that $$w$$ is independent from $$Y_{0}$$ and $$Y_{1}$$.    
+Under randomized experimental conditions, since the experimental individuals were assigned to the experimental and control groups in a random manner,   
+
+$$E\left ( Y_{1}|w=0 \right )=E\left ( Y_{i}|w=1 \right )$$     
+
+$$E\left ( Y_{0}|w=0 \right )=E\left ( Y_{0}|w=1 \right )$$ 
+assumptions hold. Based on the fact that the observed test cannot guarantee randomization, it is necessary to control the confusion variable as much as  possible so that $$w$$ is independent from $$Y_{0}$$ and $$Y_{1}$$.    
 
 $$ E\left ( Y_{j}|w=0,x \right )=E\left ( Y_{j}|w=1,x \right )E\left ( Y_{0}|w=0,x \right )=E\left ( Y_{0}|w=1,x \right ) $$     
 
