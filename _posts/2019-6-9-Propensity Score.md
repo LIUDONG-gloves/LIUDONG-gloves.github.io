@@ -26,7 +26,9 @@ All sociological studies emphasize that only by controlling other variables can 
 
 However, when the number of variables to be controlled is increased to 5 or 6, then equal amount of interactive groups will be generated, which will make the grouping no longer easy, and there may also be some other problems, such that a group without individual may be created due to the limitation of sample size. At this point, PSM is able to subtly reduce the dimension of the confusion variable by means of tendency scoring. Instead of focusing on the specific value of the confusion variable, it focuses on the propensity score obtained by substituting these confounding variables into the logistic regression equation. Under this situation, you can control all of the obfuscated variables simply by ensuring that the propensity scores match. Therefore, no matter how many confusing variables thare are, we can still control them through PSM to get the ideal causal relationship. From the perspective of "control", PSM solves the problem of controlling multiple confounding variables well, so that a  "purer" causal relationship can be obtained.    
 
-### The statistical basis of the propensity score matching method      
+### The statistical basis of the propensity score matching method    
+
+
 
 From a statistical point of view, let $$Y_{if},Y$$ represent the dependent variables of experimental group and the control group. W is a binary variable, $$w=1$$ means the individual is in the experimental group, $$w=0$$ means the individual is in the control group. When an individual belongs to the experimental group, $$E\left ( Y_{t}|w=1 \right )$$ is observable and counterfactual. We cannot observe what if a well educated person without being educated at the time. Similarly, for the control group, $$E\left ( Y_{0}|w=0 \right )$$ is observable, and $$E\left ( Yj|w=0 \right )$$ is counterfactual and unobservable. The causal relationship we hope to obtain is a weighted average of the differences between the "facts" and "reverse facts" of individuals in the experimental group.    
 
