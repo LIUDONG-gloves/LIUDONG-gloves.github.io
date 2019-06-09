@@ -46,7 +46,7 @@ Under randomized experimental conditions, since the experimental individuals wer
 
 $$ E\left ( Y_{j}|w=0,x \right )=E\left ( Y_{j}|w=1,x \right )E\left ( Y_{0}|w=0,x \right )=E\left ( Y_{0}|w=1,x \right ) $$     
 
-Among them, it is a confusion variable. As long as the aliasing variables can be found and controlled, it is approximated that $$w$$ is independent of $$Y_{0},Y_{1}$$(Rosenbaum and Rubin, 1983), i.e. $$\left ( Y_{0}, Y_{1} \right )\perp w\mid x$$  \left ( Y_{0}, Y_{1} \right )\perp w\mid x $$     
+Among them, it is a confusion variable. As long as the aliasing variables can be found and controlled, it is approximated that $$w$$ is independent of $$Y_{0},Y_{1}$$(Rosenbaum and Rubin, 1983), i.e. $$\left ( Y_{0}, Y_{1} \right )\perp w\mid x$$  $$\left ( Y_{0}, Y_{1} \right )\perp w\mid x $$     
 
 At this point, the confounding variable obtains a specific propensity value p by logistic regression, which results in:   
 
