@@ -40,15 +40,15 @@ $$E\left ( Y_{1}|w=0 \right )=E\left ( Y_{1}|w=1 \right )$$
 
 $$E\left ( Y_{0}|w=0 \right )=E\left ( Y_{0}|w=1 \right )$$   
 
-That is, another group in the control group can represent the "counterfactual" status of the individual in the experimental group. Thus, equation(1) can be simplified as:   
+That is, another group in the control group can represent the "counterfactual" status of the individual in the experimental group. Thus, equation(1) can be simplified as:     
 
-$$T=E\left ( Y_{j}|w=1 \right )-E\left ( Y_{0}|w=0 \right )$$   (2)     
+$$T=E\left ( Y_{j}|w=1 \right )-E\left ( Y_{0}|w=0 \right )$$      
 
 Under randomized experimental conditions, since the experimental individuals were assigned to the experimental and control groups in a random manner, $$E\left ( Y_{1}|w=0 \right )=E\left ( Y_{i}|w=1 \right )$$ and $$E\left ( Y_{0}|w=0 \right )=E\left ( Y_{0}|w=1 \right )$$ assumptions hold. Based on the fact that the observed test cannot guarantee randomization, it is necessary to control the confusion variable as much as possible so that $$w$$ is independent from $$Y_{0}$$ and $$Y_{1}$$.    
 
 $$ E\left ( Y_{j}|w=0,x \right )=E\left ( Y_{j}|w=1,x \right )E\left ( Y_{0}|w=0,x \right )=E\left ( Y_{0}|w=1,x \right ) $$     
 
-Among them, it is a confusion variable. As long as the aliasing variables can be found and controlled, it is approximated that $$w$$ is independent of $$Y_{0},Y_{1}$$(Rosenbaum and Rubin, 1983), i.e. $$\left ( Y_{0}, Y_{1} \right )\perp w\mid x$$  $$\left ( Y_{0}, Y_{1} \right )\perp w\mid x $$     
+Among them, it is a confusion variable. As long as the aliasing variables can be found and controlled, it is approximated that $$w$$ is independent of $$Y_{0},Y_{1}$$(Rosenbaum and Rubin, 1983), i.e. $$\left ( Y_{0}, Y_{1} \right )\perp w\mid x$$  
 
 At this point, the confounding variable obtains a specific propensity value p by logistic regression, which results in:   
 
