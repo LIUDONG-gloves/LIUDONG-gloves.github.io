@@ -35,9 +35,7 @@ $$E\left ( Y_{t}|w=1 \right )$$
 
 is observable and counterfactual. We cannot observe what if a well educated person without being educated at the time. Similarly, for the control group,    
 $$E\left ( Y_{0}|w=0 \right )$$     
-
 is observable, and    
-
 $$E\left ( Yj|w=0 \right )$$    
 
 is counterfactual and unobservable. The causal relationship we hope to obtain is a weighted average of the differences between the "facts" and "reverse facts" of individuals in the experimental group.    
@@ -62,9 +60,9 @@ $$E\left ( Y_{1}|w=0 \right )=E\left ( Y_{i}|w=1 \right )$$
 $$E\left ( Y_{0}|w=0 \right )=E\left ( Y_{0}|w=1 \right )$$ 
 assumptions hold. Based on the fact that the observed test cannot guarantee randomization, it is necessary to control the confusion variable as much as  possible so that $$w$$ is independent from $$Y_{0}$$ and $$Y_{1}$$.    
 
-$$ E\left ( Y_{1}|w=0,x \right )=E\left ( Y_{1}|w=1,x \right )     
+$$ E\left ( Y_{1}|w=0,x \right )=E\left ( Y_{1}|w=1,x \right )$$      
 
-E\left ( Y_{0}|w=0,x \right )=E\left ( Y_{0}|w=1,x \right ) $$     
+$$E\left ( Y_{0}|w=0,x \right )=E\left ( Y_{0}|w=1,x \right ) $$     
 
 Among them, it is a confusion variable. As long as the aliasing variables can be found and controlled, it is approximated that $$w$$ is independent of $$Y_{0},Y_{1}$$(Rosenbaum and Rubin, 1983), i.e. $$\left ( Y_{0}, Y_{1} \right )\perp w\mid x$$  
 
