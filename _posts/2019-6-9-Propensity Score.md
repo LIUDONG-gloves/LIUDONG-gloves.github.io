@@ -29,8 +29,7 @@ However, when the number of variables to be controlled is increased to 5 or 6, t
 
 ## The statistical basis of the propensity score matching method    
 
-From a statistical point of view, let $$Y_{if},Y$$ represent the dependent variables of experimental group and the control group. W is a binary variable, $$w=1$$ means the individual is in the experimental group, $$w=0$$ means the individual is in the control group. When an individual belongs to the experimental group,    
-$$E\left ( Y_{t}|w=1 \right )$$    is observable and counterfactual. We cannot observe what if a well educated person without being educated at the time. Similarly, for the control group,    $$E\left ( Y_{0}|w=0 \right )$$     is observable, and    $$E\left ( Yj|w=0 \right )$$    is counterfactual and unobservable. The causal relationship we hope to obtain is a weighted average of the differences between the "facts" and "reverse facts" of individuals in the experimental group.    
+From a statistical point of view, let $$Y_{if},Y$$ represent the dependent variables of experimental group and the control group. W is a binary variable, $$w=1$$ means the individual is in the experimental group, $$w=0$$ means the individual is in the control group. When an individual belongs to the experimental group,    $$E\left ( Y_{t}|w=1 \right )$$    is observable and counterfactual. We cannot observe what if a well educated person without being educated at the time. Similarly, for the control group,    $$E\left ( Y_{0}|w=0 \right )$$     is observable, and    $$E\left ( Yj|w=0 \right )$$    is counterfactual and unobservable. The causal relationship we hope to obtain is a weighted average of the differences between the "facts" and "reverse facts" of individuals in the experimental group.    
 
 $$T = n\left [ E\left ( Y_{j}|w=0 \right )-E\left ( Y_{0}|w=1 \right ) \right ] + （1-n)\left [ E\left ( Y_{1}|w=0 \right )-E\left ( Y_{0}|w=0 \right ) \right ]$$    
 
