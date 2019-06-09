@@ -33,15 +33,23 @@ From a statistical point of view, let $$Y_{if},Y$$ represent the dependent varia
 
 $$E\left ( Y_{t}|w=1 \right )$$    
 
-is observable and counterfactual. We cannot observe what if a well educated person without being educated at the time. Similarly, for the control group, $$E\left ( Y_{0}|w=0 \right )$$ is observable, and $$E\left ( Yj|w=0 \right )$$ is counterfactual and unobservable. The causal relationship we hope to obtain is a weighted average of the differences between the "facts" and "reverse facts" of individuals in the experimental group.    
+is observable and counterfactual. We cannot observe what if a well educated person without being educated at the time. Similarly, for the control group,    
+$$E\left ( Y_{0}|w=0 \right )$$     
+
+is observable, and    
+
+$$E\left ( Yj|w=0 \right )$$    
+
+is counterfactual and unobservable. The causal relationship we hope to obtain is a weighted average of the differences between the "facts" and "reverse facts" of individuals in the experimental group.    
 
 $$T = n\left [ E\left ( Y_{j}|w=0 \right )-E\left ( Y_{0}|w=1 \right ) \right ] + （1-n)\left [ E\left ( Y_{1}|w=0 \right )-E\left ( Y_{0}|w=0 \right ) \right ]$$    
 
 Where n is the proportion of all subjects in the experimental group. Since counterfactuality cannot be observed, a specific group of people can only be in the experimental group or in the control group, the following non-confusion assumptions must still be met when making causal inferences:     
 
-$$E\left ( Y_{1}|w=0 \right )=E\left ( Y_{1}|w=1 \right )$$   
+$$E\left ( Y_{1}|w=0 \right )=E\left ( Y_{1}|w=1 \right )$$       
 
-$$E\left ( Y_{0}|w=0 \right )=E\left ( Y_{0}|w=1 \right )$$   
+
+$$E\left ( Y_{0}|w=0 \right )=E\left ( Y_{0}|w=1 \right )$$      
 
 That is, another group in the control group can represent the "counterfactual" status of the individual in the experimental group. Thus, equation(1) can be simplified as:     
 
