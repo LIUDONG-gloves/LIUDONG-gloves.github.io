@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      KL DIVERGENCE EXPALNATIONS               # 标题 
+title:      PROPENSITY SCORE               # 标题 
 subtitle:   Microeconometrics #副标题
 date:       2019-06-09              # 时间
 author:     ELVIS                      # 作者
