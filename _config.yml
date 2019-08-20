@@ -1,11 +1,11 @@
 # Site settings
-title: ELVIS Blog
-SEOTitle: 又文的博客 | Elvis Blog
+title: Liu Dong
+SEOTitle: 刘栋 | Liu Dong
 header-img: img/home-bg-art.jpg #需要修改
-email: zyw-elvis@outlook.com
+email: xmuxmuxmu@2980.com
 description: "Every failure is leading towards success."
-keyword: "ELVIS, ELVIS Blog, 又文的博客, zhangyouwen, 张又文, Microeconometrics"
-url: "http://zywxmu2016.github.io"          # your host, for absolute URL
+keyword: "Liu Dong, 刘氏手套"
+url: "http://liudong.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/zywxmu2016/zywxmu2016.io.git" # you code repository
 
@@ -18,10 +18,8 @@ sidebar-avatar: /img/sunshine.jpg      # use absolute URL, seeing it's used in b
 
 # SNS settings
 RSS: false
-weibo_username:     -ElvisZhang-
-zhihu_username:     ElvisZhang
-github_username:    zywxmu2016
-jianshu_username:   4072b6f18049
+
+#jianshu_username:   4072b6f18049
 
 
 
